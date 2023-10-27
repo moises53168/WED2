@@ -1,0 +1,114 @@
+  * {
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+  }
+
+  .general{
+    height: 0px;
+  }
+  
+  .equipo{
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    padding-top: 0px;
+    font-family: perro;
+  }
+  .equipo p{
+    margin-left: 320px;
+    margin-right: 320px;
+    font-size: 20px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+  }
+  .equipo h1{
+    color: white;
+    text-align: center;
+  }
+  .fotos {
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(79, 85, 84);
+    justify-content: space-evenly;
+  }
+  .fotos img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 120px;
+  }
+  .texto {
+    text-align: center;
+    background-color: rgb(2, 2, 2);
+    font-size: 23px;
+    color: aliceblue;
+    border-radius: 12px;
+    font-family: perro;
+  }
+  .textoluis {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    font-size: 23px;
+    color: aliceblue;
+    border-radius: 12px;
+    font-family: perro;
+  }
+  .textomoises {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    font-size: 23px;
+    color: aliceblue;
+    border-radius: 12px;
+    font-family: perro;
+  }
+  .textoalfredo {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    font-size: 23px;
+    color: aliceblue;
+    border-radius: 12px;
+    font-family: perro;
+  }
+  .textojared {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    font-size: 23px;
+    color: aliceblue;
+    border-radius: 12px;
+    font-family: perro;
+  }
+  .caja {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    height: 353px;
+    justify-content: space-around;
+    padding-top: 50px;
+  }
+  .mision {
+    width: 750px;
+    height: 330px;
+    /*background-color: rgb(0, 0, 0);*/
+    font-family: perro;
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+  }
+  .vicion {
+    width: 750px;
+    height: 330px;
+    /*background-color: rgb(0, 0, 0);*/
+    font-family: perro;
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+  }
+  @font-face {
+    font-family: perro;
+    src: url(Gabarito-VariableFont_wght.ttf) format(truetype);
+  }
+  
